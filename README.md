@@ -22,7 +22,7 @@ Bayangkan bahwa **expressjs** dan **laravel** merupakan container, dan akan di d
 - Agar nginx-proxy dapat mengarahkan ke service mana (dari subdomain), perlu dibuatkan 1 network external dari docker : ```docker network create nginx-proxy-net```
 - Di directory root, sesuaikan file .env, kemudian jalankan perintah : ```docker-compose up -d```
 
-<img alt="schema" src="https://drive.google.com/uc?id=1_P6cUws8B4nEkU-j2EzUudfx4456oWcc&export=download" />
+<img alt="schema" src="https://drive.google.com/uc?id=1wx6lNhpiN7d-ulU5xi7XWPsDFxhDCanb&export=download" />
 
 - Di directory expressjs, jalankan perintah : 
 ```
@@ -30,7 +30,7 @@ docker-compose build
 docker-compose up -d
 ```
 
-<img alt="schema" src="https://drive.google.com/uc?id=1wx6lNhpiN7d-ulU5xi7XWPsDFxhDCanb&export=download" />
+<img alt="schema" src="https://drive.google.com/uc?id=1_P6cUws8B4nEkU-j2EzUudfx4456oWcc&export=download" />
 
 
 - Di directory laravel, sesuaikan file .env, kemudian jalankan perintah :
